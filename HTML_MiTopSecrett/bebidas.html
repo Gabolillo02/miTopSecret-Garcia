@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paterno.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Bebidas</title>
+    <style>
+        /* Estilos para el formulario */
+        form {
+          width: 400px;
+          margin: 0 auto;
+        }
+    
+        label, input, textarea {
+          display: block;
+          margin-bottom: 10px;
+        }
+    
+        textarea {
+          height: 100px;
+        }
+    
+        button {
+          padding: 10px 20px;
+        }
+        
+      </style>
+</head>
+<body>
+
+    <section class="section-container">
+        <h2>Sitio de Lectura 📖☕</h2>
+        <article class="drink-article">
+            <br>
+            <p>El café indica: Sexo Activo 'Dar'</p>
+            <img class="img2" src="img/coffe.jpg" alt="Coffee" width="10%">
+            <h3>El café te inspira motivación para tu día a día.</h3>
+        </article>
+        
+        <article class="drink-article">
+
+            <p>El té indica: Sexo Pasivo 'Recibir'</p>
+            <img  class="img2" src="img/tea.jpg" alt="Tea" width="10%">
+            <h3>El té te inspira relajación</h3>
+        </article>
+
+        <section class="video-section">
+            <h1>Musica especialmente para disfrutar de una buena lectura...</h1>
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/I8DxShZV9aU" frameborder="0" allowfullscreen></iframe>
+          </div>
+          
+          <section>
+            <h2>Recomendación de Libros</h2>
+            <p>Te recomendamos visitar el siguiente enlace para conocer libros interesantes:
+              <br>(Dar click en la siguiente imagen...)
+            </p>
+            <a href="https://www.culturagenial.com/es/libros-recomendados/" target="_blank">
+                <img src="img/book.jpeg" alt="Vista previa del enlace" style="width: 250px;">
+                <p>40 libros recomendados que tienes que leer</p>
+            </a>
+        </section>
+        
+        
+          <br>
+            <h1>Formulario de Reseñas de Lecturas</h1>
+
+            <div class="form-container">
+              <form action="enviar_reseña.php" method="post">
+                  <br>
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+          
+                  <label for="titulo_libro">Título del libro:</label>
+                  <input type="text" id="titulo_libro" name="titulo_libro" required>
+          
+                  <label for="autor">Autor:</label>
+                  <input type="text" id="autor" name="autor" required>
+          
+                  <label for="reseña">Reseña:</label>
+                  <textarea id="reseña" name="reseña" required></textarea>
+          
+                  <a class="back-button">Enviar Reseña</a>
+              </form>
+          </div>
+            
+
+    </section>
+        <br>
+
+
+
+
+        <a href="index.html" class="back-button">Regresar</a>
+
+    </section>
+
+    <footer>
+      <p>Derechos reservados: Garcia Tapia Jose Gabriel</p>
+      <p>Contactos: josegabrielgarcia997@gmail.com | 311-226-5338</p>
+  </footer>
+    
+</body>
+</html>

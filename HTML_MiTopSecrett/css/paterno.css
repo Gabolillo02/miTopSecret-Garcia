@@ -1,0 +1,190 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: antiquewhite;
+    padding: 20px;
+  }
+  
+  .header-container {
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+  }
+  
+  p {
+    background-color: purple;
+    color:white;
+    padding: 10px;
+  }
+  
+  
+  .header-image {
+    width: 15%;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-list li {
+    margin: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #eee;
+    transition: background-color 0.3s ease;
+}
+
+.nav-list a:hover {
+    background-color: #ccc;
+}
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: purple;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section-container {
+    background-color: cornsilk;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    background-color:darkslateblue;
+    color: white;
+    padding: 10px;
+  }
+  
+  .drink-article {
+    margin-bottom: 50px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+
+  .img2 {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: purple;
+  }
+  
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .video-section {
+    background-color: cornsilk;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  iframe {
+    width: 100%;
+    max-width: 560px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkslateblue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: purple;
+  }
+  

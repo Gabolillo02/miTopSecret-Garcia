@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+  font-family: 'Abel', sans-serif;
+}
+/*estilo del logo en el header*/
+header div img {
+  width: 250px;
+  margin-left: 50px;
+}
+
+header div {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+
+.navLogin {
+  margin-right: 100px;
+}
+
+/*Quitar viñetas de las listas*/
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li a {
+  display: inline-block;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+/*estilo del header*/
+header {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  /*position: fixed;*/
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  justify-content: space-between;
+  
+  background-color: rgb(3, 102, 132);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+body {
+  margin: 0px;
+}
+
+.seccion1{
+  position: relative;
+  background: url('/imagenes/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  opacity: 90%;
+}
+.divFondoBlurSection1{
+  backdrop-filter: blur(9px);
+  width: 60%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+.divFondoColorSection1{
+  background-color: rgb(3, 102, 132);
+  opacity: 45%;
+  width: 60%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+
+.divTextoSection1{
+  width: 55%;
+  height: 35%;
+  opacity: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+}
+.divTextoSection1 h1{
+  font-size: 30px;
+}
+.divAbajoSection1{
+  background-color: #81c015;
+  width: 20%;
+  height: 10%;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a{
+  text-decoration: none;
+}
+.divAbajoSection1 li {
+  list-style: none;
+  padding-left: 25%;
+  padding-top: 8px;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 19px;
+  position: relative;
+}
+.divAbajoSection1 li a{
+  color: whitesmoke;
+}
+
+.seccion2{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  background-color: rgb(230, 230, 230);
+}
+
+.seccion2 .textLeft {
+  text-align: center;
+  padding: 50px 160px 10px;
+  grid-column: 1;
+  grid-row: 1;
+  font-weight: lighter;
+  font-size: 17px;
+}
+.seccion2 .textLeft a {
+  background-color: rgb(3, 102, 132);
+  padding: 15px 40px;
+  color: whitesmoke;
+  font-size: 19px;
+  margin-top: 50px;
+}
+.seccion2 .cardsRight{
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  padding-right: 50px;
+}
+
+.seccion2 .cardsRight .izq{
+  grid-column: 1;
+  grid-row: 1;
+  padding: 10px 10px;
+  
+}
+.seccion2 .cardsRight .centro{
+  grid-column: 2;
+  grid-row: 1;
+  padding: 10px 10px;
+}
+.seccion2 .cardsRight .der{
+  grid-column: 3;
+  grid-row: 1;
+  padding: 10px 10px;
+}
+.seccion2 .cardsRight * img{
+  width: 80px;
+  padding: 15px 30%; 
+}
+.seccion2 .cardsRight * h3{
+  text-align: center;
+  padding: 0px 5px;
+}
+.seccion2 .cardsRight * h4{
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.seccion3{
+  position: relative;
+  width: 100%;
+  height: 650px;
+}
+.seccion3 h1{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.seccion3 .container1{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px;
+  padding: 0px;
+}
+.seccion3 .container2{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px;
+  padding: 0px;
+}
+.seccion3 * img{
+  width: 350px;
+  padding: 0px;
+  padding-left: 11%;
+  padding-top: 25px;
+}
+
+.seccion3 * h3{
+  padding: 0px 50px;
+  text-align: center;
+}
+.seccion3 a {
+  background-color: rgb(3, 102, 132);
+  padding: 15px 40px;
+  color: whitesmoke;
+  font-size: 19px;
+  margin-left: 150px;
+  margin-top: 800px;
+}
+
+.footer{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(3, 102, 132);
+}
+
+.footer h2{
+  position: absolute;
+  text-align: center;
+  color: white;
+  bottom: 0px;
+  left: 22%;
+}
